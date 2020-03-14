@@ -14,5 +14,3 @@ export function MyProvider(props) {
     </MyContext.Provider>
   );
 }
-
-//export default { MyContext, MyProvider };
