@@ -10,16 +10,19 @@ function Header() {
       <nav>
         <ul>
           <li>
-            <Link to="/state">State</Link>
+            <Link to="/state-hook">useState</Link>
           </li>
           <li>
-            <Link to="/effect">Effect</Link>
+            <Link to="/effect-hook">useEffect</Link>
           </li>
           <li>
-            <Link to="/custom">Custom</Link>
+            <Link to="/custom-hook">useCustom</Link>
           </li>
           <li>
             <Link to="/composition">Composition</Link>
+          </li>
+          <li>
+            <Link to="/context">Context</Link>
           </li>
         </ul>
       </nav>

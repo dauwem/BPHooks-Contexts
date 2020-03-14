@@ -1,0 +1,37 @@
+.Landscape__Container--Day {
+  background-color: rgb(54, 141, 255);
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+  position: relative;
+  cursor: pointer;
+
+  .Landscape__Container__Circle {
+    position: absolute;
+    width: 20vh;
+    height: 20vh;
+    background-color: yellow;
+    right: 30px;
+    top: 20px;
+    border-radius: 100px;
+  }
+}
+
+.Landscape__Container--Night {
+  background-color: rgb(60, 60, 60);
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+  position: relative;
+  cursor: pointer;
+
+  .Landscape__Container__Circle {
+    position: absolute;
+    width: 20vh;
+    height: 20vh;
+    background-color: white;
+    right: 30px;
+    top: 20px;
+    border-radius: 100px;
+  }
+}
