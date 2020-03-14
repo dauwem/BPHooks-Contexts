@@ -1,0 +1,17 @@
+header {
+  border-bottom: grey 1px solid;
+
+  li {
+    display: inline-block;
+    padding-left: 20px;
+  
+    a {
+      text-decoration: none;
+      color: grey;
+  
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}

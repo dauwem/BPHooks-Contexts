@@ -1,0 +1,16 @@
+.Card__Container {
+  margin: 0 auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 10px;
+
+  p {
+    text-align: center;
+
+    &:nth-child(1) {
+      font-weight: bold;
+      border-bottom: 1px solid gray;
+    }
+  }
+}
