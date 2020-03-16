@@ -32,3 +32,5 @@ function StatusPerson() {
 }
 
 export default StatusPerson;
+
+

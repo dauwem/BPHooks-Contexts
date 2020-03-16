@@ -27,6 +27,9 @@ function Header() {
           <li>
             <Link to="/context-hook">useContext</Link>
           </li>
+          <li>
+            <Link to="/reducer-hook">useReducer</Link>
+          </li>
         </ul>
       </nav>
     </header>
