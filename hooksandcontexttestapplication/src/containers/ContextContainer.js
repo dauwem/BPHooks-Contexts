@@ -4,7 +4,7 @@ import React from 'react';
 import MainContainer from './MainContainer';
 
 function ContextContainer() {
-  return <MainContainer />;
+  return <MainContainer hook={ false } />;
 }
 
 export default ContextContainer;

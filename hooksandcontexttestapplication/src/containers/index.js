@@ -7,6 +7,7 @@ import EffectContainer from './EffectContainer';
 import CustomContainer from './CustomContainer';
 import CompositionContainer from './CompositionContainer';
 import ContextContainer from './ContextContainer';
+import ContextHookContainer from './ContextHookContainer';
 
 // Import components
 import Header from '../components/Header';
@@ -22,6 +23,7 @@ function Containers() {
         <CustomContainer path="/custom-hook" />
         <CompositionContainer path="/composition" />
         <ContextContainer path="/context" />
+        <ContextHookContainer path="/context-hook" />
       </Router>
     </Fragment>
   );

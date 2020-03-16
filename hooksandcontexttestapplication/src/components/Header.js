@@ -24,6 +24,9 @@ function Header() {
           <li>
             <Link to="/context">Context</Link>
           </li>
+          <li>
+            <Link to="/context-hook">useContext</Link>
+          </li>
         </ul>
       </nav>
     </header>

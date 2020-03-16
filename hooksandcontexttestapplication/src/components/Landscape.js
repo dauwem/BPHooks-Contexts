@@ -11,7 +11,7 @@ function Landscape() {
     <MyContext.Consumer>
       {
         context => (
-          <div onClick={context.changePeriod} className={ "Landscape__Container--" + context.state }>
+          <div onClick={context.changePeriod} className={ "Landscape__Container Landscape__Container--" + context.state }>
             <div className="Landscape__Container__Circle"></div>
           </div>
         )

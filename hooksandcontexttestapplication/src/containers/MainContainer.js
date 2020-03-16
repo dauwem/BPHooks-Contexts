@@ -5,11 +5,14 @@ import '../assets/css/MainContainer.scss';
 
 // Import components
 import Landscape from '../components/Landscape';
+import StatusPerson from '../components/StatusPerson';
 
-function MainContainer() {
+function MainContainer(props) {
   return (
     <div className="MainContainer__Container">
-      <Landscape />
+      {
+        props.hook ? <StatusPerson /> : <Landscape />
+      }
     </div>
   );
 }
