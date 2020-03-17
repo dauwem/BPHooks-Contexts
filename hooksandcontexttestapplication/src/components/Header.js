@@ -30,6 +30,9 @@ function Header() {
           <li>
             <Link to="/reducer-hook">useReducer</Link>
           </li>
+          <li>
+            <Link to="/callback-hook">useCallback</Link>
+          </li>
         </ul>
       </nav>
     </header>

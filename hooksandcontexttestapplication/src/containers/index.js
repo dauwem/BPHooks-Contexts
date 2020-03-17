@@ -9,6 +9,7 @@ import CompositionContainer from './CompositionContainer';
 import ContextContainer from './ContextContainer';
 import ContextHookContainer from './ContextHookContainer';
 import ReducerContainer from './ReducerContainer';
+import CallbackContainer from './CallbackContainer';
 
 // Import components
 import Header from '../components/Header';
@@ -26,6 +27,7 @@ function Containers() {
         <ContextContainer path="/context" />
         <ContextHookContainer path="/context-hook" />
         <ReducerContainer path="/reducer-hook" />
+        <CallbackContainer path="/callback-hook" />
       </Router>
     </Fragment>
   );
