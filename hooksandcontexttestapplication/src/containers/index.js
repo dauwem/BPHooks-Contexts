@@ -17,7 +17,7 @@ function Containers() {
   return(
     <Fragment>
       <Header />
-      <Router>
+      <Router style={{ margin: '10px' }}>
         <Redirect noThrow from="/" to="/state-hook" />
         <StateContainer path="/state-hook" />
         <EffectContainer path="/effect-hook" />
