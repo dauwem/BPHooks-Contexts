@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Button({ increment }) {
-  console.log('Button re-rendered');
+function Button(props) {
+  console.log(`Button re-rendered: ${ props.message }`);
 
-  return <button onClick={() => increment()}>Increase counter</button>
+  return <button onClick={ props.action }>{ props.message }</button>
 }
 
 export default Button;
