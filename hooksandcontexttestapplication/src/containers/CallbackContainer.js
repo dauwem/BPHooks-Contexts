@@ -10,12 +10,9 @@ function CallbackContainer() {
   console.log('CallbackContainer');
 
   const incrementCallback = useCallback(() => {
+    console.log('Callback increment fired!');
     setCallbackCount(callbackCount + 1);
   }, [callbackCount]);
-  
-  const increment = () => {
-    setCount(count + 1);
-  };
 
   console.log(incrementCallback);
 
@@ -23,6 +20,11 @@ function CallbackContainer() {
     console.log('Callback decrement fired!');
     setCallbackCount(callbackCount - 1);
   }, [callbackCount]);
+
+  const increment = () => {
+    console.log('Increment fired!');
+    setCount(count + 1);
+  };
 
   console.log(increment);
   
