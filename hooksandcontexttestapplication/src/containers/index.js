@@ -11,6 +11,7 @@ import ContextHookContainer from './ContextHookContainer';
 import ReducerContainer from './ReducerContainer';
 import CallbackContainer from './CallbackContainer';
 import MemoContainer from './MemoContainer';
+import RefContainer from './RefContainer';
 
 // Import components
 import Header from '../components/Header';
@@ -30,6 +31,7 @@ function Containers() {
         <ReducerContainer path="/reducer-hook" />
         <CallbackContainer path="/callback-hook" />
         <MemoContainer path="/memo-hook" />
+        <RefContainer path="/ref-hook" />
       </Router>
     </Fragment>
   );

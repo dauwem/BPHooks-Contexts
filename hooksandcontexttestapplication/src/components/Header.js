@@ -36,6 +36,9 @@ function Header() {
           <li>
             <Link to="/memo-hook">useMemo</Link>
           </li>
+          <li>
+            <Link to="/ref-hook">useRef</Link>
+          </li>
         </ul>
       </nav>
     </header>
