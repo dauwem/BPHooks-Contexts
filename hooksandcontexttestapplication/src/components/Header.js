@@ -33,6 +33,9 @@ function Header() {
           <li>
             <Link to="/callback-hook">useCallback</Link>
           </li>
+          <li>
+            <Link to="/memo-hook">useMemo</Link>
+          </li>
         </ul>
       </nav>
     </header>
