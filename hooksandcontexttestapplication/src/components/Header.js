@@ -39,6 +39,9 @@ function Header() {
           <li>
             <Link to="/ref-hook">useRef</Link>
           </li>
+          <li>
+            <Link to="/imperative-handle-hook">useImperativeHandle</Link>
+          </li>
         </ul>
       </nav>
     </header>

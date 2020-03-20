@@ -12,6 +12,7 @@ import ReducerContainer from './ReducerContainer';
 import CallbackContainer from './CallbackContainer';
 import MemoContainer from './MemoContainer';
 import RefContainer from './RefContainer';
+import ImperativeHandleContainer from './ImperativeHandleContainer';
 
 // Import components
 import Header from '../components/Header';
@@ -32,6 +33,7 @@ function Containers() {
         <CallbackContainer path="/callback-hook" />
         <MemoContainer path="/memo-hook" />
         <RefContainer path="/ref-hook" />
+        <ImperativeHandleContainer path="/imperative-handle-hook" />
       </Router>
     </Fragment>
   );

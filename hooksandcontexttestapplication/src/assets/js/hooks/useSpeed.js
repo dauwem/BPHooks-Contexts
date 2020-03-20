@@ -1,7 +1,10 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useDebugValue } from 'react';
 
 function useSpeed(index, period) {
   const [miles, setMiles] = useState(index); 
+
+  useDebugValue(miles);
+  useDebugValue(miles, mile => mile + ' drived!');
 
   useEffect(() => {
     let interval = setInterval(() => {
